@@ -1,10 +1,6 @@
-//import {Mark} from './node_modules/mark.js/dist/mark.min.js';
-//requirejs(['./node_modules/mark.js/dist/mark.min.js'])
-
 requirejs.config({
     baseUrl: 'js/lib',
 });
-
 
 
 // Variable which tell us what step of the game we're on.
@@ -153,11 +149,3 @@ function highLighter() {
         });
     });
 }
-
-/*var notes = document.querySelectorAll('.note');
-for (var note of notes) {
-	note.addEventListener('mouseover', function(){
-		this.classList.add('on');
-	});
-}
-*/
